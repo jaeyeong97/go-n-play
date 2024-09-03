@@ -27,22 +27,23 @@ const Modal = () => {
 
     // 로컬 스토리지에서 불러오기
     useEffect(() => {
-        const rv = JSON.parse(localStorage.getItem(`rv_${movie.id}`));
-        // 배열 여부를 철저히 확인하여 배열이 아니면 빈 배열로 설정
-        if (Array.isArray(rv)) {
+        if (!movie || !movie.id) return; // movie와 movie.id가 유효한지 체크
+        try {
+            const rv = JSON.parse(localStorage.getItem(`rv_${movie.id}`)) || [];
             setReviewData(rv);
-            dataId.current = rv.length ? rv[0].id + 1 : 0; // id 설정
-        } else {
-            // 배열이 아닌 경우 빈 배열로 초기화
+            dataId.current = rv.length > 0 ? rv[0].id + 1 : 0; // dataId를 다음 id로 조정
+        } catch (error) {
+            console.error('로컬 스토리지 데이터 파싱 오류:', error);
             setReviewData([]);
             dataId.current = 0;
         }
-    }, [movie.id]);
+    }, [movie]);
 
     // 로컬 스토리지에 리뷰 저장
     useEffect(() => {
+        if (!movie || !movie.id) return; // movie와 movie.id가 유효한지 체크
         localStorage.setItem(`rv_${movie.id}`, JSON.stringify(reviewData));
-    }, [reviewData, movie.id]);
+    }, [reviewData, movie]);
 
     const handleReview = (e) => {
         setReview(e.target.value);
