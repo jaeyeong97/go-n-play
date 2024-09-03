@@ -28,8 +28,15 @@ const Modal = () => {
     // 로컬 스토리지에서 불러오기
     useEffect(() => {
         const rv = JSON.parse(localStorage.getItem(`rv_${movie.id}`));
-        setReviewData(Array.isArray(rv) ? rv : []);
-        dataId.current = rv && Array.isArray(rv) && rv.length ? rv[0].id + 1 : 0;
+        // 배열 여부를 철저히 확인하여 배열이 아니면 빈 배열로 설정
+        if (Array.isArray(rv)) {
+            setReviewData(rv);
+            dataId.current = rv.length ? rv[0].id + 1 : 0; // id 설정
+        } else {
+            // 배열이 아닌 경우 빈 배열로 초기화
+            setReviewData([]);
+            dataId.current = 0;
+        }
     }, [movie.id]);
 
     // 로컬 스토리지에 리뷰 저장
