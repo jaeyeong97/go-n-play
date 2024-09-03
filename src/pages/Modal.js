@@ -9,8 +9,8 @@ const Modal = () => {
     const movie = location.state?.movie;
 
     const [review, setReview] = useState('');
-    const [reviewData, setReviewData] = useState([])
-    const [points, setPoints] = useState('5점')
+    const [reviewData, setReviewData] = useState([]);
+    const [points, setPoints] = useState('5점');
     const [togglePoints, setTogglePoints] = useState(false);
     const [toggleFav, setToggleFav] = useState(false);
     const [toggleThumb, setToggleThumb] = useState(false);
@@ -27,9 +27,9 @@ const Modal = () => {
 
     // 로컬 스토리지에서 불러오기
     useEffect(() => {
-        const rv = JSON.parse(localStorage.getItem(`rv_${movie.id}`)) || '';
-        setReviewData(rv);
-        dataId.current = rv.length ? rv[0].id + 1 : 0; // dataId를 다음 id로 조정
+        const rv = JSON.parse(localStorage.getItem(`rv_${movie.id}`));
+        setReviewData(Array.isArray(rv) ? rv : []);
+        dataId.current = rv && Array.isArray(rv) && rv.length ? rv[0].id + 1 : 0;
     }, [movie.id]);
 
     // 로컬 스토리지에 리뷰 저장
