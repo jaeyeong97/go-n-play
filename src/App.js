@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import moviesData from './data/MoviesData.json';
+import Header from './components/Header';
+import ScrollToTop from './util/ScrollTop';
+import Home from './pages/Home';
+import Series from './pages/Series';
+import Movie from './pages/Movie';
+import New from './pages/New';
+import Kids from './pages/Kids';
+import Search from './pages/Search';
+import Modal from './pages/Modal';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <ScrollToTop />
+      <Routes>
+        <Route path='/' element={<Home moviesData={moviesData} />} />
+        <Route path="/Series" element={<Series moviesData={moviesData} />} />
+        <Route path="/Movie" element={<Movie moviesData={moviesData} />} />
+        <Route path="/New" element={<New moviesData={moviesData} />} />
+        <Route path="/Kids" element={<Kids moviesData={moviesData} />} />
+        <Route path='/Search' element={<Search moviesData={moviesData} />} />
+        <Route path='/Modal' element={<Modal />} />
+      </Routes>
+    </Router>
   );
 }
 
