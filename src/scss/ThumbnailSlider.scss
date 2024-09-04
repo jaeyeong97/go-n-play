@@ -13,7 +13,7 @@
   .thumbnail-slider {
     position: relative;
     &:hover .arrow {
-      display: block;
+      opacity: 1;
     }
     .slider {
       display: flex;
@@ -51,7 +51,6 @@
     &:hover {
       background-color: rgba(255, 255, 255, 0.6);
     }
-    display: none;
     position: absolute;
     top: 50%;
     width: 30px;
@@ -60,6 +59,8 @@
     border-radius: 50%;
     text-align: center;
     line-height: 30px;
+    opacity: 0;
+    transition: 0.3s;
     color: #000;
     background-color: rgba(255, 255, 255, 0.8);
     cursor: pointer;

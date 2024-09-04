@@ -22,7 +22,7 @@ const Header = () => {
     setSearchValue(e.target.value);
   };
 
-  // Enter 키를 눌렀을 때 검색 실행
+  // 검색 실행
   const handleSearchSubmit = (e) => {
     if (e.key === 'Enter' && searchValue.trim() !== '') {
       navigate('/Search', { state: { query: searchValue } }); // 검색값을 Search로 이동

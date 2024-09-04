@@ -51,10 +51,7 @@ const ThumbnailSliderVertical = ({ sliderTitle, selectedMovies }) => {
                 {sliderTitle}
             </h2>
             <div className='thumbnail-slider'>
-                <div
-                    className='slider'
-                    style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-                >
+                <div className='slider' style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                     {selectedMovies.map((movie, index) => (
                         <div key={movie.id} className="vertical-img-wrap">
                             <img

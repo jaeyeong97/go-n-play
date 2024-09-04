@@ -51,10 +51,7 @@ const ThumbnailSlider = ({ sliderTitle, selectedMovies }) => {
                 {sliderTitle}
             </h2>
             <div className='thumbnail-slider'>
-                <div
-                    className='slider'
-                    style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-                >
+                <div className='slider' style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                     {selectedMovies.map((movie) => (
                         <img className='horizon-img'
                             key={movie.id}
