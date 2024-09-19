@@ -1,9 +1,11 @@
+import { useRecoilValue } from 'recoil';
+import { moviesState } from '../recoil/moviesState';
 import Slider from '../components/Slider';
 import ThumbnailSlider from '../components/ThumbnailSlider';
 import ThumbnailSliderVertical from '../components/ThumbnailSliderVertical';
 import Footer from '../components/Footer';
 
-const Kids = ({ moviesData }) => {
+const Kids = () => {
 
   const mainSlides = [
     {
@@ -55,6 +57,8 @@ const Kids = ({ moviesData }) => {
       summary: `돌아가시기 전 아버지가 동욱에게 마지막 선물로 남겨준 강아지 마음이. 어머니의 반대에도 불구하고 마음이를 헌신적으로 돌본 동욱 덕분에, 마음이는 어느덧 무럭무럭 자라 세 마리의 강아지를 낳는다. 그중, 유난히 약한 몸으로 태어난 막내 장군이에게 동욱은 엄청난 관심과 사랑을 쏟는다. 그런데 어느 날, 보석 탈취범 필브라더스가 범죄에 이용하기 위해 막내 장군이를 납치한다. 마음이는 장군이를 구하기 위해 필브라더스를 뒤쫓게 되는데, 과연 장군이는 마음이의 품으로 돌아올 수 있을까.`
     },
   ];
+
+  const moviesData = useRecoilValue(moviesState);
 
   const section1Movies = moviesData.slice(33, 51);
   const section2Movies = moviesData.slice(5, 23);

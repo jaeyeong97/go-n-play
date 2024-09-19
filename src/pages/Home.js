@@ -1,9 +1,11 @@
+import { useRecoilValue } from 'recoil';
+import { moviesState } from '../recoil/moviesState';
 import Slider from '../components/Slider';
 import ThumbnailSlider from '../components/ThumbnailSlider';
 import ThumbnailSliderVertical from '../components/ThumbnailSliderVertical';
 import Footer from '../components/Footer';
 
-const Home = ({ moviesData }) => {
+const Home = () => {
 
   const mainSlides = [
     {
@@ -71,6 +73,8 @@ const Home = ({ moviesData }) => {
       summary: `우리 핑핑이가 어디로 갔을까? 설마, 납치당한 건가? 사랑하는 반려 달팽이를 찾아 떠나는 스폰지밥. 뚱이도 함께 가야지. 비키니 시티를 벗어나 미지의 세계로, 출발이다!`
     },
   ];
+
+  const moviesData = useRecoilValue(moviesState);
 
   const section1Movies = moviesData.slice(0, 18);
   const section2Movies = moviesData.slice(15, 33);

@@ -1,9 +1,11 @@
+import { useRecoilValue } from 'recoil';
+import { moviesState } from '../recoil/moviesState';
 import Slider from '../components/Slider';
 import ThumbnailSlider from '../components/ThumbnailSlider';
 import ThumbnailSliderVertical from '../components/ThumbnailSliderVertical';
 import Footer from '../components/Footer';
 
-const Movie = ({ moviesData }) => {
+const Movie = () => {
 
   const mainSlides = [
     {
@@ -71,6 +73,8 @@ const Movie = ({ moviesData }) => {
       summary: `2012년, 전 인류가 멸망한 가운데 과학자 네빌만이 살아남는다. 생존자를 찾기 위해 매일 방송을 송신하던 그는 생존자가 또 있다는 것을 알게 된다. 그러나, 애타게 찾았던 생존자들은 더 이상 인간의 모습이 아닌 이상 바이러스에 감염된 변종 인류였다. 인류의 마지막 생존자와 변종 인류 간의 전쟁이 시작된다.`
     },
   ];
+
+  const moviesData = useRecoilValue(moviesState);
 
   const section1Movies = moviesData.slice(36, 54);
   const section2Movies = moviesData.slice(0, 18);

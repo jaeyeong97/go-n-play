@@ -1,5 +1,5 @@
+import { RecoilRoot } from 'recoil';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import moviesData from './data/MoviesData.json';
 import Header from './components/Header';
 import ScrollToTop from './util/ScrollTop';
 import Home from './pages/Home';
@@ -12,19 +12,21 @@ import Modal from './pages/Modal';
 
 const App = () => {
   return (
-    <Router>
-      <Header />
-      <ScrollToTop />
-      <Routes>
-        <Route path='/' element={<Home moviesData={moviesData} />} />
-        <Route path="/Series" element={<Series moviesData={moviesData} />} />
-        <Route path="/Movie" element={<Movie moviesData={moviesData} />} />
-        <Route path="/New" element={<New moviesData={moviesData} />} />
-        <Route path="/Kids" element={<Kids moviesData={moviesData} />} />
-        <Route path='/Search' element={<Search moviesData={moviesData} />} />
-        <Route path='/Modal' element={<Modal />} />
-      </Routes>
-    </Router>
+    <RecoilRoot>
+      <Router>
+        <Header />
+        <ScrollToTop />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path="/Series" element={<Series />} />
+          <Route path="/Movie" element={<Movie />} />
+          <Route path="/New" element={<New />} />
+          <Route path="/Kids" element={<Kids />} />
+          <Route path='/Search' element={<Search />} />
+          <Route path='/Modal' element={<Modal />} />
+        </Routes>
+      </Router>
+    </RecoilRoot>
   );
 }
 

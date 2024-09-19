@@ -1,9 +1,11 @@
+import { useRecoilValue } from 'recoil';
+import { moviesState } from '../recoil/moviesState';
 import Slider from '../components/Slider';
 import ThumbnailSlider from '../components/ThumbnailSlider';
 import ThumbnailSliderVertical from '../components/ThumbnailSliderVertical';
 import Footer from '../components/Footer';
 
-const Series = ({ moviesData }) => {
+const Series = () => {
 
   const mainSlides = [
     {
@@ -55,6 +57,8 @@ const Series = ({ moviesData }) => {
       summary: `세상이 보기엔 부족한 스펙 때문에 마이너 인생을 강요하는 현실 속에서도, 남들이 뭐라던 '마이웨이'를 가려는 마이너리그 청춘들의 골 때리는 성장로맨스`
     },
   ];
+
+  const moviesData = useRecoilValue(moviesState);
 
   const section1Movies = moviesData.slice(7, 25);
   const section2Movies = moviesData.slice(26, 44);

@@ -1,9 +1,11 @@
+import { useRecoilValue } from 'recoil';
+import { moviesState } from '../recoil/moviesState';
 import Slider from '../components/Slider';
 import ThumbnailSlider from '../components/ThumbnailSlider';
 import ThumbnailSliderVertical from '../components/ThumbnailSliderVertical';
 import Footer from '../components/Footer';
 
-const New = ({ moviesData }) => {
+const New = () => {
 
   const mainSlides = [
     {
@@ -58,6 +60,8 @@ const New = ({ moviesData }) => {
       price: 4500
     },
   ];
+
+  const moviesData = useRecoilValue(moviesState);
 
   const section1Movies = moviesData.slice(7, 25);
   const section2Movies = moviesData.slice(26, 44);
