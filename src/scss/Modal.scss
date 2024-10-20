@@ -26,7 +26,7 @@
       .flex {
         display: flex;
         justify-content: space-between;
-        padding: 50px 20px 20px 20px;
+        padding: 20px 0;
         border-radius: 0 0 10px 10px;
         background-color: #222;
         .left {
@@ -65,12 +65,12 @@
           .icon-wrap {
             margin-bottom: 20px;
             span {
-              width: 50px;
-              height: 50px;
+              width: 35px;
+              height: 35px;
               margin-left: 10px;
-              font-size: 25px;
+              font-size: 20px;
               text-align: center;
-              line-height: 50px;
+              line-height: 35px;
               border-radius: 50%;
               font-variation-settings: "wght" 300;
               background-color: rgba(255, 255, 255, 0.1);
@@ -86,8 +86,8 @@
           }
           .play {
             position: relative;
-            width: 220px;
-            height: 55px;
+            width: 160px;
+            height: 45px;
             background-color: #0084ff;
             color: #fff;
             border-radius: 10px;
@@ -198,7 +198,30 @@
         margin-right: 5px;
       }
     }
-    .review-content {
+  }
+}
+@media screen and (min-width: 500px) {
+  .modal {
+    .modal-content-wrap {
+      .img-wrap {
+        .flex {
+          padding: 50px 20px 20px 20px;
+          .right {
+            .icon-wrap {
+              span {
+                width: 50px;
+                height: 50px;
+                font-size: 25px;
+                line-height: 50px;
+              }
+            }
+            .play {
+              width: 220px;
+              height: 55px;
+            }
+          }
+        }
+      }
     }
   }
 }
