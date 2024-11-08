@@ -10,8 +10,8 @@ const Movie = () => {
   const mainSlides = [
     {
       id: 1,
-      img: '/assets/slide11.png',
-      txt: '/assets/slide11_txt.png',
+      img: '/assets/slide11.webp',
+      txt: '/assets/slide11_txt.webp',
       video: '/assets/slide8_video.mp4',
       age: "All",
       title: "해리 포터와 아즈카반의 죄수",
@@ -26,8 +26,8 @@ const Movie = () => {
     },
     {
       id: 2,
-      img: '/assets/slide12.png',
-      txt: '/assets/slide12_txt.png',
+      img: '/assets/slide12.webp',
+      txt: '/assets/slide12_txt.webp',
       video: '/assets/slide9_video.mp4',
       age: "All",
       title: "해리 포터와 죽음의 성물 - 2부",
@@ -42,8 +42,8 @@ const Movie = () => {
     },
     {
       id: 3,
-      img: '/assets/slide13.png',
-      txt: '/assets/slide13_txt.png',
+      img: '/assets/slide13.webp',
+      txt: '/assets/slide13_txt.webp',
       video: '/assets/slide10_video.mp4',
       age: "All",
       title: "해리 포터와 마법사의 돌",
@@ -58,8 +58,8 @@ const Movie = () => {
     },
     {
       id: 4,
-      img: '/assets/slide14.png',
-      txt: '/assets/slide14_txt.png',
+      img: '/assets/slide14.webp',
+      txt: '/assets/slide14_txt.webp',
       video: '/assets/slide11_video.mp4',
       age: "12",
       title: "나는 전설이다",

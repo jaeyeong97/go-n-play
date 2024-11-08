@@ -3,7 +3,7 @@ import '../scss/Footer.scss';
 const Footer = () => {
     return (
         <footer className="footer">
-            <img src="../assets/logo.png" alt="logo" />
+            <img src="../assets/logo.webp" alt="logo" />
         </footer>
     );
 };

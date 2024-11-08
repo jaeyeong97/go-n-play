@@ -10,8 +10,8 @@ const Home = () => {
   const mainSlides = [
     {
       id: 1,
-      img: '/assets/slide1.jpeg',
-      txt: '/assets/slide1_txt.png',
+      img: '/assets/slide1.webp',
+      txt: '/assets/slide1_txt.webp',
       video: '/assets/slide1_video.mp4',
       age: "12",
       title: "트루먼쇼",
@@ -26,8 +26,8 @@ const Home = () => {
     },
     {
       id: 2,
-      img: '/assets/slide2.jpeg',
-      txt: '/assets/slide2_txt.png',
+      img: '/assets/slide2.webp',
+      txt: '/assets/slide2_txt.webp',
       video: '/assets/slide2_video.mp4',
       age: "15",
       title: "시카고 P.D",
@@ -42,8 +42,8 @@ const Home = () => {
     },
     {
       id: 3,
-      img: '/assets/slide4.jpeg',
-      txt: '/assets/slide4_txt.png',
+      img: '/assets/slide4.webp',
+      txt: '/assets/slide4_txt.webp',
       video: '/assets/slide4_video.mp4',
       age: "15",
       title: "인서전트",
@@ -58,8 +58,8 @@ const Home = () => {
     },
     {
       id: 4,
-      img: '/assets/slide3.jpeg',
-      txt: '/assets/slide3_txt.png',
+      img: '/assets/slide3.webp',
+      txt: '/assets/slide3_txt.webp',
       video: '/assets/slide3_video.mp4',
       age: "12",
       title: "네모바지 스폰지밥",

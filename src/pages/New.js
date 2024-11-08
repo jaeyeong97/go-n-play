@@ -10,8 +10,8 @@ const New = () => {
   const mainSlides = [
     {
       id: 1,
-      img: '/assets/slide15.png',
-      txt: '/assets/slide15_txt.png',
+      img: '/assets/slide15.webp',
+      txt: '/assets/slide15_txt.webp',
       video: '/assets/slide12_video.mp4',
       age: "12",
       title: "스파이더맨: 노 웨이 홈 퍼 버전(자막)",
@@ -27,8 +27,8 @@ const New = () => {
     },
     {
       id: 2,
-      img: '/assets/slide16.png',
-      txt: '/assets/slide16_txt.png',
+      img: '/assets/slide16.webp',
+      txt: '/assets/slide16_txt.webp',
       video: '/assets/slide5_video.mp4',
       age: "All",
       title: "스파이더맨: 어크로스 더 유니버스(자막)",
@@ -44,8 +44,8 @@ const New = () => {
     },
     {
       id: 3,
-      img: '/assets/slide17.png',
-      txt: '/assets/slide17_txt.png',
+      img: '/assets/slide17.webp',
+      txt: '/assets/slide17_txt.webp',
       video: '/assets/slide8_video.mp4',
       age: "19",
       title: "데드풀",

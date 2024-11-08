@@ -10,8 +10,8 @@ const Series = () => {
   const mainSlides = [
     {
       id: 1,
-      img: '/assets/slide5.png',
-      txt: '/assets/slide5_txt.png',
+      img: '/assets/slide5.webp',
+      txt: '/assets/slide5_txt.webp',
       video: '/assets/slide7_video.mp4',
       age: "15",
       title: "태어난 김에 세계일주",
@@ -26,8 +26,8 @@ const Series = () => {
     },
     {
       id: 2,
-      img: '/assets/slide6.png',
-      txt: '/assets/slide6_txt.png',
+      img: '/assets/slide6.webp',
+      txt: '/assets/slide6_txt.webp',
       video: '/assets/slide11_video.mp4',
       age: "15",
       title: "새벽 2시의 신데렐라",
@@ -42,8 +42,8 @@ const Series = () => {
     },
     {
       id: 3,
-      img: '/assets/slide7.png',
-      txt: '/assets/slide7_txt.png',
+      img: '/assets/slide7.webp',
+      txt: '/assets/slide7_txt.webp',
       video: '/assets/slide12_video.mp4',
       age: "15",
       title: "쌈, 마이웨이",

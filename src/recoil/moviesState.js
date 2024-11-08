@@ -15,7 +15,7 @@ export const moviesState = atom({
             "director": "크리스토퍼 놀란",
             "actors": "레오나르도 디카프리오, 와타나베 켄, 조셉 고든레빗, 마리옹 코티야르, 엘런 페이지, 톰 하디, 킬리언 머피, 톰 베린저, 마이클 케인",
             "subtitle": "영어, 한국어",
-            "img": "../assets/thumbnail1.png"
+            "img": "../assets/thumbnail1.webp"
         },
         {
             "id": 2,
@@ -29,7 +29,7 @@ export const moviesState = atom({
             "director": "조현탁, 유현미",
             "actors": "염정아, 이태란, 정준호, 최원영, 윤세아, 김병철, 오나라, 김서형, 조재윤, 김혜윤, 이지원, 강찬희, 김동희, 조병규, 박유나, 송건희, 김보라",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail2.png"
+            "img": "/assets/thumbnail2.webp"
         },
         {
             "id": 3,
@@ -43,7 +43,7 @@ export const moviesState = atom({
             "director": "MBC",
             "actors": "기안84, 빠니보틀, 덱스, 이시언",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail3.png"
+            "img": "/assets/thumbnail3.webp"
         },
         {
             "id": 4,
@@ -57,7 +57,7 @@ export const moviesState = atom({
             "director": "김은숙, 이응복",
             "actors": "이병헌, 김태리, 유연석, 변요한, 김민정, 김갑수, 최무성, 김의성, 데이비드 리 맥기니스, 김병철, 이승준, 강신일, 조우진, 이호재",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail4.png"
+            "img": "/assets/thumbnail4.webp"
         },
         {
             "id": 5,
@@ -71,8 +71,8 @@ export const moviesState = atom({
             "director": "브라이언 싱어",
             "actors": "라미 말렉, 루시 보인튼, 귈림 리, 벤 하디, 조셉 마젤로, 에이든 길런, 엘렌 리치, 톰 홀랜더, 마이크 마이어스, 아론 맥커스커",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail5.png",
-            "imgVertical": "/assets/thumbnail-vertical7.png"
+            "img": "/assets/thumbnail5.webp",
+            "imgVertical": "/assets/thumbnail-vertical7.webp"
         },
         {
             "id": 6,
@@ -86,7 +86,7 @@ export const moviesState = atom({
             "director": "마이클 그레이시",
             "actors": "휴 잭맨, 미셸 윌리엄스, 잭 에프론, 젠데이아, 레베카 퍼거슨, 키알라 세틀, 야히아 압둘마틴 2세, 샘 험프리, 오스틴 존슨, 캐머런 실리, 엘리스 루빈, 스카일라 던",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail6.png"
+            "img": "/assets/thumbnail6.webp"
         },
         {
             "id": 7,
@@ -100,7 +100,7 @@ export const moviesState = atom({
             "director": "김지운",
             "actors": "송강호, 공유, 한지민, 츠루미 신고, 엄태구, 신성록, 허성태, 포스터 버든, 김동영, 고준, 서영주",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail7.png"
+            "img": "/assets/thumbnail7.webp"
         },
         {
             "id": 8,
@@ -114,8 +114,8 @@ export const moviesState = atom({
             "director": "이명훈",
             "actors": "황정민, 염정아, 전혜진, 정만식, 김주헌, 차래형, 김찬형, 이호철, 김준한, 옥자연",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail8.png",
-            "imgVertical": "/assets/thumbnail-vertical5.png"
+            "img": "/assets/thumbnail8.webp",
+            "imgVertical": "/assets/thumbnail-vertical5.webp"
         },
         {
             "id": 9,
@@ -129,7 +129,7 @@ export const moviesState = atom({
             "director": "김원석, 박해영",
             "actors": "이선균, 아이유, 고두심, 박호산, 송새벽, 김영민",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail9.png"
+            "img": "/assets/thumbnail9.webp"
         },
         {
             "id": 10,
@@ -143,7 +143,7 @@ export const moviesState = atom({
             "director": "황동혁",
             "actors": "이정재, 박해수, 위하준, 오영수, 정호연, 허성태, 김주령, 트리파티 아누팜, 유성주, 이유미",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail10.png"
+            "img": "/assets/thumbnail10.webp"
         },
         {
             "id": 11,
@@ -157,7 +157,7 @@ export const moviesState = atom({
             "director": "김용완, 박경수",
             "actors": "설경구, 김희애, 김미숙, 김영민, 김홍파, 임세미, 전배수, 김종구, 장광, 박근형",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail11.png"
+            "img": "/assets/thumbnail11.webp"
         },
         {
             "id": 12,
@@ -171,7 +171,7 @@ export const moviesState = atom({
             "director": "EBS",
             "actors": "곽준빈",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail12.png"
+            "img": "/assets/thumbnail12.webp"
         },
         {
             "id": 13,
@@ -185,7 +185,7 @@ export const moviesState = atom({
             "director": "매슈 본",
             "actors": "콜린 퍼스, 새뮤얼 L. 잭슨, 마크 스트롱, 태런 에저턴, 소피 쿡슨, 잭 데이븐포트, 마이클 케인, 마크 해밀, 소피아 부텔라, 에드워드 홀크로프트",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail13.png"
+            "img": "/assets/thumbnail13.webp"
         },
         {
             "id": 14,
@@ -199,7 +199,7 @@ export const moviesState = atom({
             "director": "AMC 스튜디오",
             "actors": "앤드루 링컨, 스티븐 연, 노만 리더스, 캔들러 릭스, 멀리사 맥브라이드, 로렌 코핸, 다나이 구리라, 알라나 마스터슨, 소니콰 마틴그린, 조시 맥더밋, 크리스천 서라토스, 세스 길리엄, 로스 마퀀드, 레니 제임스, 에밀리 키니, 존 번탈, 제프리 딘 모건, 케이틀린 네이콘, 카리 페이턴",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail14.png"
+            "img": "/assets/thumbnail14.webp"
         },
         {
             "id": 15,
@@ -213,7 +213,7 @@ export const moviesState = atom({
             "director": "박지은, 장영우, 김희원",
             "actors": "김수현, 김지원, 박성훈, 곽동연, 이주빈, 김갑수, 이미숙, 정진영, 나영희, 김정난, 김주령, 전배수, 황영희, 김도현, 장윤주, 윤보미, 문태유, 김영민, 세바스찬 로쉐",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail15.png"
+            "img": "/assets/thumbnail15.webp"
         },
         {
             "id": 16,
@@ -227,7 +227,7 @@ export const moviesState = atom({
             "director": "한재림",
             "actors": "류준열, 천우희, 박정민, 이열음, 박해준, 이주영, 문정희, 배성우",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail16.png"
+            "img": "/assets/thumbnail16.webp"
         },
         {
             "id": 17,
@@ -241,7 +241,7 @@ export const moviesState = atom({
             "director": "신원호, 이우정",
             "actors": "혜리, 박보검, 류준열, 고경표, 이동휘, 류혜영, 성동일, 이일화",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail17.png"
+            "img": "/assets/thumbnail17.webp"
         },
         {
             "id": 18,
@@ -255,8 +255,8 @@ export const moviesState = atom({
             "director": "Channel S",
             "actors": "김대희, 김준호, 장동민, 유세윤, 홍인규",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail18.png",
-            "imgVertical": "/assets/thumbnail-vertical10.png"
+            "img": "/assets/thumbnail18.webp",
+            "imgVertical": "/assets/thumbnail-vertical10.webp"
         },
         {
             "id": 19,
@@ -270,7 +270,7 @@ export const moviesState = atom({
             "director": "제임스 카메론",
             "actors": "레오나르도 디카프리오, 케이트 윈슬렛, 빌리 제인, 캐시 베이츠, 프랜시스 피셔, 글로리아 스튜어트, 빌 팩스턴, 버나드 힐, 데이비드 워너, 빅터 가버, 조나단 하이드, 수지 에이미스",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail19.png"
+            "img": "/assets/thumbnail19.webp"
         },
         {
             "id": 20,
@@ -284,7 +284,7 @@ export const moviesState = atom({
             "director": "스티븐 서머스",
             "actors": "브렌든 프레이저, 레이철 바이스, 존 해나, 오데드 페르, 아놀드 보슬로, 케빈 J. 오코너, 조나단 하이드, 스티븐 더넘, 버나드 폭스, 오미드 다릴리",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail20.png"
+            "img": "/assets/thumbnail20.webp"
         },
         {
             "id": 21,
@@ -298,7 +298,7 @@ export const moviesState = atom({
             "director": "JTBC",
             "actors": "안정환, 이동국, 조원희, 김용만, 김성주, 윤동식, 이형택, 김동현, 강칠구, 김태술, 김요한, 김현우, 모태범, 박태환, 이지환, 임남규, 허민호, 안드레 진, 이대훈, 김준현, 이장군, 류은규, 박제언, 김준호, 조원우",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail21.png"
+            "img": "/assets/thumbnail21.webp"
         },
         {
             "id": 22,
@@ -312,7 +312,7 @@ export const moviesState = atom({
             "director": "크리스토퍼 놀란",
             "actors": "킬리언 머피, 로버트 다우니 주니어, 에밀리 블런트, 맷 데이먼, 제이슨 클라크, 플로렌스 퓨, 케네스 브래너, 게리 올드먼, 라미 말렉",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail22.png"
+            "img": "/assets/thumbnail22.webp"
         },
         {
             "id": 23,
@@ -326,7 +326,7 @@ export const moviesState = atom({
             "director": "데이미언 셔젤",
             "actors": "라이언 고슬링, 엠마 스톤, 존 레전드, 로즈마리 드윗, 소노야 미즈노, 제시카 로스, 캘리 허낸데즈, J.K. 시먼스, 핀 위트록, 톰 에버렛 스콧, 미건 페이, 제이슨 푹스",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail23.png"
+            "img": "/assets/thumbnail23.webp"
         },
         {
             "id": 24,
@@ -340,7 +340,7 @@ export const moviesState = atom({
             "director": "이창희, 김다민",
             "actors": " 최우식, 손석구, 이희준",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail24.png"
+            "img": "/assets/thumbnail24.webp"
         },
         {
             "id": 25,
@@ -354,7 +354,7 @@ export const moviesState = atom({
             "director": "한준희, 김보통",
             "actors": "정해인, 구교환, 김성균, 손석구, 지진희, 김지현",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail25.png"
+            "img": "/assets/thumbnail25.webp"
         },
         {
             "id": 26,
@@ -368,7 +368,7 @@ export const moviesState = atom({
             "director": "잭 스나이더",
             "actors": "헨리 카빌, 에이미 애덤스, 마이클 섀넌, 케빈 코스트너, 다이앤 레인, 로런스 피시번, 러셀 크로, 안체 트라우, 아예렛 주러, 크리스토퍼 멀로니",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail26.png"
+            "img": "/assets/thumbnail26.webp"
         },
         {
             "id": 27,
@@ -382,7 +382,7 @@ export const moviesState = atom({
             "director": "알렉스 피나",
             "actors": "우르술라 코르베로, 알바로 모르테, 이치아르 이투뇨, 페드로 알론소, 미겔 에란, 하이메 로렌테, 에스테르 아세보, 다르코 페리치, 호비크 케우치케리안, 루카 페로시, 벨렌 쿠에스타, 페르난도 카요, 로드리고 데라세르나, 나지와 님리, 페르난도 소토, 마리오 데 라 로사, 안토니오 로메로, 미켈 부스타만테, 호세 마누엘 세다, 라몬 아히레, 알바 플로레스, 엔리케 아르세, 파트리크 크리아도, 디아나 고메스, 미겔 앙헬 실베스트레, 파코 토우스, 호세 마누엘 포가, 키티 만베르, 마리아 페드라사",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail27.png"
+            "img": "/assets/thumbnail27.webp"
         },
         {
             "id": 28,
@@ -396,7 +396,7 @@ export const moviesState = atom({
             "director": "공수창",
             "actors": "감우성, 손병호, 이선균, 박원상, 오태경, 송진호, 문영동, 정경호, 김병철, 기주봉",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail28.png"
+            "img": "/assets/thumbnail28.webp"
         },
         {
             "id": 29,
@@ -410,7 +410,7 @@ export const moviesState = atom({
             "director": "우민호",
             "actors": "이병헌, 이성민, 곽도원, 이희준, 김소진, 서현우, 지현준, 박성근",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail29.png"
+            "img": "/assets/thumbnail29.webp"
         },
         {
             "id": 30,
@@ -424,7 +424,7 @@ export const moviesState = atom({
             "director": "이성한",
             "actors": "정우, 조영진, 윤순심, 이은주, 양지웅, 손호준, 지승현, 황정음",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail30.png"
+            "img": "/assets/thumbnail30.webp"
         },
         {
             "id": 31,
@@ -438,7 +438,7 @@ export const moviesState = atom({
             "director": "더퍼 형제",
             "actors": "위노나 라이더, 데이비드 하버, 밀리 바비 브라운, 핀 울프하드, 게이튼 마타라조, 케일럽 맥러플린, 노아 슈냅, 세이디 싱크, 너탈리아 다이어, 찰리 히튼, 조 키어리, 마야 호크, 브렛 겔먼, 프리아 퍼거슨, 데이커 몽고메리, 카라 부오노, 매튜 모딘, 폴 라이저, 숀 애스틴, 섀넌 퍼서",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail31.png"
+            "img": "/assets/thumbnail31.webp"
         },
         {
             "id": 32,
@@ -452,8 +452,8 @@ export const moviesState = atom({
             "director": "유제원, 신하은",
             "actors": "정해인, 정소민, 김지은, 윤지온, 박지영, 조한철, 장영남, 이승준, 전석호, 김금순, 한예주, 이승협, 심소영",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail32.png",
-            "imgVertical": "/assets/thumbnail-vertical3.png"
+            "img": "/assets/thumbnail32.webp",
+            "imgVertical": "/assets/thumbnail-vertical3.webp"
         },
         {
             "id": 33,
@@ -467,7 +467,7 @@ export const moviesState = atom({
             "director": "오충환, 홍정은, 홍미란",
             "actors": "아이유, 여진구, 신정근, 서이숙, 배해선, 표지훈, 조현철, 강홍석, 이도현, 이태선, 강미나, 박유나, 오지호",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail33.png"
+            "img": "/assets/thumbnail33.webp"
         },
         {
             "id": 34,
@@ -481,7 +481,7 @@ export const moviesState = atom({
             "director": "데이미언 셔젤",
             "actors": "마일스 텔러, J.K. 시먼스, 폴 라이저, 멜리사 베노이스트, 오스틴 스토얼, 네이트 랭, 크리스 멀키, 데이먼 겁튼",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail34.png"
+            "img": "/assets/thumbnail34.webp"
         },
         {
             "id": 35,
@@ -495,8 +495,8 @@ export const moviesState = atom({
             "director": "JTBC",
             "actors": "정재형, 장도연, 안재현, 효정",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail35.png",
-            "imgVertical": "/assets/thumbnail-vertical9.png"
+            "img": "/assets/thumbnail35.webp",
+            "imgVertical": "/assets/thumbnail-vertical9.webp"
         },
         {
             "id": 36,
@@ -510,8 +510,8 @@ export const moviesState = atom({
             "director": "김가람, 최유나",
             "actors": "장나라, 남지현, 김준한, 표지훈, 지승현, 한재이",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail36.png",
-            "imgVertical": "/assets/thumbnail-vertical4.png"
+            "img": "/assets/thumbnail36.webp",
+            "imgVertical": "/assets/thumbnail-vertical4.webp"
         },
         {
             "id": 37,
@@ -525,7 +525,7 @@ export const moviesState = atom({
             "director": "Channel A",
             "actors": "전현무, 한혜진, 장영란, 정승제, 조정식",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail37.png"
+            "img": "/assets/thumbnail37.webp"
         },
         {
             "id": 38,
@@ -539,8 +539,8 @@ export const moviesState = atom({
             "director": "장재현",
             "actors": "최민식, 김고은, 유해진, 이도현",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail38.png",
-            "imgVertical": "/assets/thumbnail-vertical6.png"
+            "img": "/assets/thumbnail38.webp",
+            "imgVertical": "/assets/thumbnail-vertical6.webp"
         },
         {
             "id": 39,
@@ -554,7 +554,7 @@ export const moviesState = atom({
             "director": "윤종빈, 권성휘",
             "actors": "하정우, 황정민, 박해수, 조우진, 유연석, 장첸",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail39.png"
+            "img": "/assets/thumbnail39.webp"
         },
         {
             "id": 40,
@@ -568,7 +568,7 @@ export const moviesState = atom({
             "director": "토드 필립스",
             "actors": "호아킨 피닉스, 로버트 드니로, 자시 베츠, 프랜시스 콘로이, 브래트 컬렌, 글렌 플레슐러, 빌 캠프, 셰이 위검, 마크 매런",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail40.png"
+            "img": "/assets/thumbnail40.webp"
         },
         {
             "id": 41,
@@ -582,8 +582,8 @@ export const moviesState = atom({
             "director": "이재석, 손수정",
             "actors": "장근석, 이사배, 빠니보틀, 진용진, 장지수, 대도서관 외 71명",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail41.png",
-            "imgVertical": "/assets/thumbnail-vertical8.png"
+            "img": "/assets/thumbnail41.webp",
+            "imgVertical": "/assets/thumbnail-vertical8.webp"
         },
         {
             "id": 42,
@@ -597,7 +597,7 @@ export const moviesState = atom({
             "director": "김규태, 조윤영",
             "actors": "이준기, 아이유, 강하늘, 홍종현, 남주혁",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail42.png"
+            "img": "/assets/thumbnail42.webp"
         },
         {
             "id": 43,
@@ -611,7 +611,7 @@ export const moviesState = atom({
             "director": "낸시 마이어스",
             "actors": "로버트 드니로, 앤 해서웨이, 러네이 루소, 앤더스 홈, 조조 커슈너, 앤드루 래널스, 애덤 더바인, 잭 펄먼, 제이슨 올리, 크리스티나 셰러",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail43.png"
+            "img": "/assets/thumbnail43.webp"
         },
         {
             "id": 44,
@@ -625,7 +625,7 @@ export const moviesState = atom({
             "director": "SBS",
             "actors": "배성재, 하석주, 김병지, 이영표",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail44.png"
+            "img": "/assets/thumbnail44.webp"
         },
         {
             "id": 45,
@@ -639,7 +639,7 @@ export const moviesState = atom({
             "director": "리들리 스콧",
             "actors": "맷 데이먼, 제시카 차스테인, 크리스틴 위그, 제프 대니얼스, 마이클 페냐, 숀 빈, 케이트 마라, 서배스천 스탠, 도널드 글로버, 추이텔 에지오포",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail45.png"
+            "img": "/assets/thumbnail45.webp"
         },
         {
             "id": 46,
@@ -653,7 +653,7 @@ export const moviesState = atom({
             "director": "피터 잭슨",
             "actors": "일라이저 우드, 이언 매켈런, 비고 모텐슨, 리브 타일러, 숀 애스틴, 케이트 블란쳇, 존 라이스 데이비스, 빌리 보이드, 도미닉 모나한, 올랜도 블룸, 크리스토퍼 리, 휴고 위빙, 숀 빈, 이안 홈, 앤디 서키스",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail46.png"
+            "img": "/assets/thumbnail46.webp"
         },
         {
             "id": 47,
@@ -667,7 +667,7 @@ export const moviesState = atom({
             "director": "E Channel",
             "actors": "이이경, 송은이, 안정환, 권일용",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail47.png"
+            "img": "/assets/thumbnail47.webp"
         },
         {
             "id": 48,
@@ -681,7 +681,7 @@ export const moviesState = atom({
             "director": "스콧 프랭크, 앨런 스콧",
             "actors": "안야 테일러조이, 빌 캠프, 마리엘 헬러, 토머스 브로디생스터, 모지스 잉그럼, 해리 멜링, 이슬라 존스턴, 크리스티아네 자이델, 리베카 루트, 클로이 피리, 제이컵 포춘로이드",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail48.png"
+            "img": "/assets/thumbnail48.webp"
         },
         {
             "id": 49,
@@ -695,7 +695,7 @@ export const moviesState = atom({
             "director": "인스 최, 케빈 화이트",
             "actors": "폴 선형 리, 진 윤, 앤드리아 방, 시무 류, 앤드루 펑, 니콜 파워",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail49.png"
+            "img": "/assets/thumbnail49.webp"
         },
         {
             "id": 50,
@@ -709,8 +709,8 @@ export const moviesState = atom({
             "director": "모완일, 손호영",
             "actors": "김윤석, 윤계상, 고민시, 이정은",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail50.png",
-            "imgVertical": "/assets/thumbnail-vertical1.png"
+            "img": "/assets/thumbnail50.webp",
+            "imgVertical": "/assets/thumbnail-vertical1.webp"
         },
         {
             "id": 51,
@@ -724,7 +724,7 @@ export const moviesState = atom({
             "director": "MBN",
             "actors": "서장훈, 박미선, 인교진, 하하",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail51.png"
+            "img": "/assets/thumbnail51.webp"
         },
         {
             "id": 52,
@@ -738,8 +738,8 @@ export const moviesState = atom({
             "director": "MBC",
             "actors": "기안84, 유태오",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail52.png",
-            "imgVertical": "/assets/thumbnail-vertical2.png"
+            "img": "/assets/thumbnail52.webp",
+            "imgVertical": "/assets/thumbnail-vertical2.webp"
         },
         {
             "id": 53,
@@ -753,7 +753,7 @@ export const moviesState = atom({
             "director": "이응복, 홍소리, 장영우, 김형민, 박소현, 박소정, 박태희",
             "actors": "송강, 이진욱, 이시영, 고민시, 이도현, 진영, 유오성, 오정세, 김무열, 김신록, 김시아, 박규영, 고윤정, 김남희, 김갑수, 김상호",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail53.png"
+            "img": "/assets/thumbnail53.webp"
         },
         {
             "id": 54,
@@ -767,7 +767,7 @@ export const moviesState = atom({
             "director": "크리스토퍼 놀란",
             "actors": "매튜 맥커너히, 앤 해서웨이, 제시카 차스테인, 마이클 케인, 엘렌 버스틴, 존 리스고, 케이시 애플렉, 웨스 벤틀리, 빌 어윈, 매켄지 포이, 토퍼 그레이스, 데이빗 기아시",
             "subtitle": "영어, 한국어",
-            "img": "/assets/thumbnail54.png"
+            "img": "/assets/thumbnail54.webp"
         }
     ]
 });

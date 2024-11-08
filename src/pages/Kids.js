@@ -10,8 +10,8 @@ const Kids = () => {
   const mainSlides = [
     {
       id: 1,
-      img: '/assets/slide8.png',
-      txt: '/assets/slide8_txt.png',
+      img: '/assets/slide8.webp',
+      txt: '/assets/slide8_txt.webp',
       video: '/assets/slide5_video.mp4',
       age: "All",
       title: "드레곤 길들이기: 버크의 수호자",
@@ -26,8 +26,8 @@ const Kids = () => {
     },
     {
       id: 2,
-      img: '/assets/slide9.png',
-      txt: '/assets/slide9_txt.png',
+      img: '/assets/slide9.webp',
+      txt: '/assets/slide9_txt.webp',
       video: '/assets/slide6_video.mp4',
       age: "7",
       title: "소피루비",
@@ -42,8 +42,8 @@ const Kids = () => {
     },
     {
       id: 3,
-      img: '/assets/slide10.png',
-      txt: '/assets/slide10_txt.png',
+      img: '/assets/slide10.webp',
+      txt: '/assets/slide10_txt.webp',
       video: '/assets/slide7_video.mp4',
       age: "All",
       title: "마음이2",

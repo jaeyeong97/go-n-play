@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <header id='header'>
       <div className="logo" onClick={() => navigate('/')}>
-        <img src='/assets/logo.png' alt="logo" />
+        <img src='/assets/logo.webp' alt="logo" />
       </div>
       <nav>
         <span>{currentMenu}</span>
@@ -73,7 +73,7 @@ const Header = () => {
             search
           </span>
         </div>
-        <img className='profile' src='../assets/profile.png' alt='프로필 이미지' />
+        <img className='profile' src='../assets/profile.webp' alt='프로필 이미지' />
       </div>
     </header>
   );
