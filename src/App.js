@@ -1,5 +1,5 @@
 import { RecoilRoot } from 'recoil';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import ScrollToTop from './util/ScrollTop';
 import Home from './pages/Home';
@@ -13,7 +13,7 @@ import Modal from './pages/Modal';
 const App = () => {
   return (
     <RecoilRoot>
-      <Router>
+      <BrowserRouter>
         <Header />
         <ScrollToTop />
         <Routes>
@@ -25,7 +25,7 @@ const App = () => {
           <Route path='/Search' element={<Search />} />
           <Route path='/Modal' element={<Modal />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </RecoilRoot>
   );
 }
