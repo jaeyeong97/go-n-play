@@ -28,6 +28,10 @@
     align-items: center;
     padding: 10px;
     cursor: pointer;
+    .menu-title {
+      display: flex;
+      align-items: center;
+    }
     &:hover ul {
       display: flex;
     }
@@ -136,7 +140,7 @@
     nav {
       display: initial;
       align-items: initial;
-      span {
+      .menu-title {
         display: none;
       }
       ul {

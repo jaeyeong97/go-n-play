@@ -13,6 +13,10 @@
       margin: 10px 20px;
       border-radius: 8px;
       overflow: hidden;
+      width: 100%;
+      max-height: 80vh;
+      background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+      aspect-ratio: 1920 / 960;
       .img {
         width: 100%;
         height: auto;
@@ -105,7 +109,7 @@
       border-radius: 50%;
       background-color: rgba(0, 0, 0, 0.5);
       cursor: pointer;
-      span {
+      img {
         position: absolute;
         top: 50%;
         left: 50%;

@@ -64,12 +64,8 @@ const ThumbnailSliderVertical = ({ sliderTitle, selectedMovies }) => {
                         </div>
                     ))}
                 </div>
-                <span className="material-symbols-outlined thumbnail-slider-arrow-left arrow" onClick={handleClickLeft}>
-                    arrow_left_alt
-                </span>
-                <span className="material-symbols-outlined thumbnail-slider-arrow-right arrow" onClick={handleClickRight}>
-                    arrow_right_alt
-                </span>
+                <img src='/assets/arrow-left-alt.svg' alt='슬라이더 왼쪽 화살표' className='thumbnail-slider-arrow-left arrow' onClick={handleClickLeft} />
+                <img src='/assets/arrow-right-alt.svg' alt='슬라이더 오른쪽 화살표' className='thumbnail-slider-arrow-right arrow' onClick={handleClickRight} />
             </div>
         </div>
     );

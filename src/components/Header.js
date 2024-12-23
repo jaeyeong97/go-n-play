@@ -36,10 +36,10 @@ const Header = () => {
         <img src='/assets/logo.webp' alt="logo" />
       </div>
       <nav>
-        <span>{currentMenu}</span>
-        <span className="material-symbols-outlined">
-          arrow_drop_down
-        </span>
+        <div className='menu-title'>
+          <span>{currentMenu}</span>
+          <img src='/assets/arrow_down.svg' alt='아래 화살표' />
+        </div>
         <ul>
           <li onClick={() => handleMenuClick('/', '홈')}>홈</li>
           <li onClick={() => handleMenuClick('/Series', '시리즈')}>시리즈</li>
@@ -51,12 +51,10 @@ const Header = () => {
       <div className='menus'>
         <div className='search'>
           <div className={`search-in ${isClicked ? 'active' : ''}`}>
-            <span className="material-symbols-outlined back" onClick={() => {
+            <img src='/assets/arrow-back.svg' alt='왼쪽 화살표' className='back' onClick={() => {
               setIsClicked(false);
               setSearchValue('');
-            }}>
-              arrow_back
-            </span>
+            }} />
             <input
               className='search-input'
               type='text'
@@ -65,13 +63,9 @@ const Header = () => {
               onChange={handleSearchChange} // 검색어 입력 시 상태 업데이트
               onKeyPress={handleSearchSubmit} // Enter 키 누를 때 검색 실행
             />
-            <span className="material-symbols-outlined search-icon-in" onClick={handleSearchSubmit}>
-              search
-            </span>
+            <img src='/assets/search-icon.svg' alt='검색 아이콘' className='search-icon-in' onClick={handleSearchSubmit} />
           </div>
-          <span className="material-symbols-outlined search-icon-out" onClick={toggleSearch}>
-            search
-          </span>
+          <img src='/assets/search-icon.svg' alt='검색 아이콘' className='search-icon-out' onClick={toggleSearch} />
         </div>
         <img className='profile' src='../assets/profile.webp' alt='프로필 이미지' />
       </div>
